@@ -31,7 +31,7 @@ struct ExpensesView: View {
             /// New Category Add Button
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button {
+                    Button("add") {
                         
                     } label: {
                         Image(systemName: "plus.circle.fill")
